@@ -1,0 +1,3 @@
+# Unhandled Promise Rejection in Next.js Data Fetching
+
+This repository demonstrates a common error in Next.js applications: improper handling of promise rejections during data fetching. The `About` page attempts to fetch data from an API. If the fetch fails, the error is logged to the console, but not displayed to the user, leading to a poor user experience.  The solution demonstrates best practices for handling such errors.
